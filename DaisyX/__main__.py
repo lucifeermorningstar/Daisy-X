@@ -63,8 +63,8 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-нєℓℓσ ι αм [∂αιѕу χ αѕѕιѕтαηт](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg) вσт нєяє,. ι αм αη gяσυρ мαηαgємєηт вσт вαѕє∂
-ση тєℓєтнση, ρяσgяαм αη∂ ρтв. мα∂є ωιтн ℓσνє ву ∂єνιℓ.
+нєℓℓσ ι αм [єм¢єє](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg) вσт нєяє,. ι αм αη gяσυρ мαηαgємєηт вσт вαѕє∂
+ση тєℓєтнση, ρяσgяαм αη∂ ρтв. мα∂є ωιтн ℓσνє ву тєαмєм¢єє. 
 ✪ Make sure you read *INFO* Section Below ✪ 
 """
 
@@ -77,8 +77,8 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add DaisyX to your group 💫",
-            url="t.me/missdaisyX_Bot?startgroup=true",
+            text="💫 Add єм¢єє to your group 💫",
+            url="t.me/Emcee_Bot?startgroup=true",
         ),
     ],
         [
@@ -88,7 +88,7 @@ buttons = [
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [𝙳𝙰𝙸𝚂𝚈 𝚇 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)
+*Main Commands :* [єм¢єє вσт](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -103,7 +103,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/unknownarmy_1,[Daisy](t.me/unknownarmy_1),"""
+Support them  [N](t.me/Emceesupport),[Daisy](t.me/unknownarmy_1),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -362,8 +362,8 @@ def DaisyX_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by Unknown Army.* "
-            f"\n\n 🔥 Join [Daisy support](https://t.me/UnknownArmy_1) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by TEAM EMCEE.* "
+            f"\n\n 🔥 Join [Emcee support](https://t.me/Emceesupport) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/11de6b6641f5f5d5b344d.jpg)"
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
